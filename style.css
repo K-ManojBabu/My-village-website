@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  text-align: center;
+}
+
+/* Top Header */
+.top-header {
+  background-color: green;
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+/* Main Header */
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo-section .logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.title-section h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #333333;
+}
+
+.title-section h2 {
+  font-size: 22px;
+  margin: 0;
+  color: #666666;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: green;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #002f6c;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6eaf0;
+  padding: 20px;
+}
+
+.hero-left, .hero-right {
+  text-align: center;
+}
+
+.hero-left img, .hero-right img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.hero-left p, .hero-right p {
+  font-size: 16px;
+  margin: 0;
+  color: #333333;
+}
+
+.hero-center {
+  text-align: center;
+}
+
+.hero-center h3 {
+  font-size: 24px;
+  color: #333333;
+}
+
+.hero-center h1 {
+  font-size: 36px;
+  color: #0047AB;
+  margin: 10px 0;
+}
+
+.hero-center h2 {
+  font-size: 28px;
+  color: #666666;
+}
+
+/* Village Image */
+.hero img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}

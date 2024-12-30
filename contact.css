@@ -1,0 +1,94 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #006400;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 1.5em;
+}
+
+/* Main contact form container */
+.contact-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form heading */
+.contact-container h3 {
+    font-size: 2em;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+/* Form input fields */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Submit button */
+button {
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d00;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #006400;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

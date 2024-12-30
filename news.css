@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 5px 0 0;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #004d99;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+main h3 {
+    border-bottom: 2px solid #004d99;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.news-item, #events ul {
+    margin-bottom: 20px;
+}
+
+.news-item h4 {
+    margin: 0 0 5px;
+}
+
+.news-item .date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
